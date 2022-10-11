@@ -24,10 +24,10 @@ Verify Installation:
 
 In the project directory, run `npm i` to install all required dependencies.
 
-**_NOTE:_** create a file called .env and put the following dummy values in. These are needed to run the app:
+<!-- **_NOTE:_** create a file called .env and put the following dummy values in. These are needed to run the app:
 
 * REACT_APP_ACCESS_TOKEN=foo
-* REACT_APP_API_SPACE=bar
+* REACT_APP_API_SPACE=bar -->
 
 ## Available Scripts
 

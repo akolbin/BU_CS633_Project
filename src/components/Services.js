@@ -8,27 +8,27 @@ export default class Services extends Component {
     services: [
       {
         icon: <FaMoneyCheck />,
-        title: 'Paymnet by card',
+        title: 'Payment by card',
         info:
-          'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
+          'We accept payment from Visa and Mastercard.',
       },
       {
         icon: <FaSmile />,
         title: 'Kind people',
         info:
-          'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
+          'Our highest priority is to make sure your stay is as relaxing as possible. Our 24x7 staff are there to ensure you have everything you need.',
       },
       {
         icon: <FaShuttleVan />,
         title: 'Free shuttle',
         info:
-          'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
+          'Enjoy our complimentary free shuttle to nearby attractions.',
       },
       {
         icon: <FaWifi />,
         title: 'Free internet connection',
         info:
-          'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
+          'Every room comes with free, secure high-speed internet access.',
       },
     ],
   };

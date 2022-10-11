@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react";
+import { withRoomConsumer } from "../Context";
+import Loading from "./Loading";
+import RoomsFilter from "./RoomsFilter";
+import RoomsList from "./RoomsList";
 
-import RoomsFilter from './RoomsFilter';
-import RoomsList from './RoomsList';
-import { WithRoomConsumer } from '../Context';
-import Loading from './Loading';
-
-function RoomsContainer({ context }) {
+function RoomContainer({ context }) {
   const { loading, sortedRooms, rooms } = context;
-
   if (loading) {
     return <Loading />;
   }
-
   return (
     <>
       <RoomsFilter rooms={rooms} />
@@ -20,4 +17,4 @@ function RoomsContainer({ context }) {
   );
 }
 
-export default WithRoomConsumer(RoomsContainer);
+export default withRoomConsumer(RoomContainer);
