@@ -4,9 +4,9 @@ import MapSection from '../components/Map';
 import ContactForm from '../components/ContactForm';
 
 const location = {
-  address: 'Poland, Warsaw, Bartycka 16A',
-  lat: 52.21268,
-  lng: 21.07049,
+  address: 'Boston, MA',
+  lat: 42.3505,
+  lng: 71.1054,
 };
 
 export default function Contacts() {
@@ -15,17 +15,16 @@ export default function Contacts() {
       <div className="contact-section">
         <div className="contact-info">
           <div>
-            <i className="fas fa-map-marker-alt"></i>Bartycka 16A, 00-716,
-            Warszawa,
+            <i className="fas fa-map-marker-alt"></i>Boston, MA 02215
           </div>
           <div>
-            <i className="fas fa-envelope"></i>tadeusz@bist.pl
+            <i className="fas fa-envelope"></i>hotel@bu.edu
           </div>
           <div>
             <i className="fas fa-phone"></i>+00 0000 000 000
           </div>
           <div>
-            <i className="fas fa-clock"></i>Mon - Fri 9:00 - 18:00
+            <i className="fas fa-clock"></i>Mon - Fri 9:00am - 10:00pm
           </div>
         </div>
         <ContactForm />
