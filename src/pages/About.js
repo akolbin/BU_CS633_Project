@@ -19,13 +19,14 @@ export default function About() {
       <div className="about-section">
         <div className="about-description">
           <p>
-            We can have a section for each of us here
+            We can have a section for each of us here. Ex:
             <br />
             <br />
             <Link to="/">
               <img src={alexk} />
             </Link>
-            Alex Kolbin is the cloud engineer... etc.
+            <br />
+            Hi, my name is Alex Kolbin and I am the cloud engineer for team 1... etc.
             <br />
             <br />
           </p>
