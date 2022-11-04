@@ -10,14 +10,14 @@ function Login() {
     
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     
-        <title>My App</title>
+        <title>BU Hotel Login</title>
         <link href="login.css" rel="stylesheet" /> 
       </head>
       <body class="text-center">
         <main class="form-signin">
           <form action="http://localhost:3000/home">
             <img class="mb-4" src="./logo.png" alt="" height="300" />
-            <h1 class="h3 mb-3 fw-normal"><b>My App</b> - Login</h1>
+            <h1 class="h3 mb-3 fw-normal"><b>BU Hotel</b> - Login</h1>
         
             <div class="form-floating">
               <input type="string" class="form-control" id="username" placeholder="username" />
