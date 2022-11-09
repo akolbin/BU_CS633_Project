@@ -17,10 +17,10 @@ function App() {
     <>
       <Route>
         <Switch>
-          <Route exact path="/" component={Login} />
+          <Route exact path="/Login" component={Login} />
           <div>
         <Navbar />
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/rooms" component={Rooms} />
           <Route exact path="/rooms/:slug" component={SingleRoom} />
           <Route exact path="/Contacts" component={Contacts} />
