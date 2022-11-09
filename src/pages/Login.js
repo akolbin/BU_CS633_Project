@@ -15,7 +15,7 @@ function Login() {
       </head>
       <body class="text-center">
         <main class="form-signin">
-          <form action="http://localhost:3000/home">
+          <form action="http://localhost:3000/">
             <img class="mb-4" src="./logo.png" alt="" height="300" />
             <h1 class="h3 mb-3 fw-normal"><b>BU Hotel</b> - Login</h1>
         

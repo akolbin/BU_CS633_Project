@@ -54,8 +54,8 @@ export default class SingleRoom extends Component {
       <>
         <StyledHero img={mainImg || this.state.defaultBcg}>
           <Banner title={name}>
-            <Link to="/rooms" className="btn-primary">
-              Back to home
+            <Link to="#" className="btn-primary">
+              Book Room
             </Link>
           </Banner>
         </StyledHero>
@@ -74,7 +74,7 @@ export default class SingleRoom extends Component {
             <article className="info">
               <h3>Info</h3>
               <h6>Price: ${price}</h6>
-              <h6>Size: ${size}</h6>
+              <h6>Size: {size} Square Feet</h6>
               <h6>
                 Capacity:{' '}
                 {capacity > 1 ? `${capacity} people` : `${capacity} person`}
