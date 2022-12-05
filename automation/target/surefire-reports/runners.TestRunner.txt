@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 469.74 sec <<< FAILURE!
+To validate Contact us in About us section(Homepage Feature file)  Time elapsed: 32.713 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//h1[text()='Contact Us']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'CHAITRASRINIVAS', ip: '192.168.1.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ef7da744dafaf96ece6b7f36681bee6, findElement {using=xpath, value=.//h1[text()='Contact Us']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\kulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64675/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ef7da744dafaf96ece6b7f36681bee6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
+	at stepDefinitions.ContactUsStepDefinitions.i_should_be_navigated_to_contact_us_Page(ContactUsStepDefinitions.java:28)
+	at ?.I should be navigated to contact us page(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/Homepage.feature:100)
+
+To validate clear filter button(Upcoming Courses Feature file)  Time elapsed: 42.69 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Course Type filter is not reset expected:<[Select Filter Option]> but was:<[Clear Filters]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.UpcomingCoursesStepDefinitions.i_should_see_that_the_filter_selections_are_reset_to_Select_filter_option_and_all_courses_are_displayed(UpcomingCoursesStepDefinitions.java:211)
+	at ?.I should see that all the filter selections are reset to Select filter option and all courses are displayed(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/UpcomingCourses.feature:65)
+

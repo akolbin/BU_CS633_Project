@@ -1,0 +1,65 @@
+[	
+	{
+		"user_id": "001",
+		"firstName": "Chaitra",
+		"lastName": "Joshi",
+		"emailAddress": "chaitraj@bu.edu",
+		"phoneNumber": 1235111111,
+		"country":"India",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "002",
+		"firstName": "Nyrika",
+		"lastName": "Renuka",
+		"emailAddress": "nyrikabr@bu.edu",
+		"phoneNumber": 1564111111,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "003",
+		"firstName": "Dipti",
+		"lastName": "Doshi",
+		"emailAddress": "diptido@bu.edu",
+		"phoneNumber": 1111111111,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "004",
+		"firstName": "Alexander",
+		"lastName": "Kolbin",
+		"emailAddress": "akolbin@bu.edu",
+		"phoneNumber": 1111122111,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "005",
+		"firstName": "Alex",
+		"lastName": "Byun",
+		"emailAddress": "alex0307@bu.edu",
+		"phoneNumber": 1111111111,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "006",
+		"firstName": "Jonathan",
+		"lastName": "Alberth",
+		"emailAddress": "jtalberth@gmail.com",
+		"phoneNumber": 1115511111,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	},
+	{
+		"user_id": "007",
+		"firstName": "Brad",
+		"lastName": "Nissenbaum",
+		"emailAddress": "bradn@bu.edu",
+		"phoneNumber": 1111111177,
+		"country":"U.S.A",
+		"special_requests": "Test"
+	}
+]
