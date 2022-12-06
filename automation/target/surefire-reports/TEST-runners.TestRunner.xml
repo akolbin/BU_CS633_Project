@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="25" failures="1" name="runners.TestRunner" time="468.142" errors="1" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.boot.library.path" value="C:\Users\kulka\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Chaitra\Workspace\CucumberFramework\automation"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Chaitra\Workspace\CucumberFramework\automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kulka\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Chaitra\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5451110048875893203.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\kulka\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/kulka/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/kulka/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Apache\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;D:\Chaitra\Webdrivers\ChromeDrivers\98;C:\Users\kulka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Users\kulka\AppData\Local\GitHubDesktop\bin;C:\Users\kulka\AppData\Roaming\npm;C:\Windows\system32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kulka"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="kulka"/>
+    <property name="java.class.path" value="C:\Users\kulka\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.2.20211123-1648\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="C:\Users\kulka\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="D:\Chaitra\Workspace\CucumberFramework\automation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Homepage Feature file" name="To check all sections of homepage are displayed" time="4.156"/>
+  <testcase classname="Homepage Feature file" name="To validate header section" time="2.668"/>
+  <testcase classname="Homepage Feature file" name="Clicking on Assessment Link" time="12.635"/>
+  <testcase classname="Homepage Feature file" name="To navigate to Upcoming courses page" time="17.776"/>
+  <testcase classname="Homepage Feature file" name="To validate clicking on Training Link" time="7.32"/>
+  <testcase classname="Homepage Feature file" name="To Validate Scrolling Image section" time="2.102"/>
+  <testcase classname="Homepage Feature file" name="To validate our services section" time="2.191"/>
+  <testcase classname="Homepage Feature file" name="To validate About Us section" time="2.037"/>
+  <testcase classname="Homepage Feature file" name="To validate Who we are in About us section" time="22.686"/>
+  <testcase classname="Homepage Feature file" name="To validate What we do in About us section" time="12.622"/>
+  <testcase classname="Homepage Feature file" name="To validate Contact us in About us section" time="32.713">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//h1[text()=&apos;Contact Us&apos;]&quot;}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;CHAITRASRINIVAS&apos;, ip: &apos;192.168.1.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ef7da744dafaf96ece6b7f36681bee6, findElement {using=xpath, value=.//h1[text()=&apos;Contact Us&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\kulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64675/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ef7da744dafaf96ece6b7f36681bee6" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//h1[text()=&apos;Contact Us&apos;]&quot;}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;CHAITRASRINIVAS&apos;, ip: &apos;192.168.1.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ef7da744dafaf96ece6b7f36681bee6, findElement {using=xpath, value=.//h1[text()=&apos;Contact Us&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\kulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64675/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ef7da744dafaf96ece6b7f36681bee6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
+	at stepDefinitions.ContactUsStepDefinitions.i_should_be_navigated_to_contact_us_Page(ContactUsStepDefinitions.java:28)
+	at ✽.I should be navigated to contact us page(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/Homepage.feature:100)
+</error>
+    <system-out>
+@Homepage @Automation
+Scenario: To validate Contact us in About us section # src/test/resources/features/Homepage.feature:96
+  Given I am on edura homepage                       # stepDefinitions.HomepageStepDefinitions.i_am_on_edura_homepage()
+  And I view About Us section                        # stepDefinitions.HomepageStepDefinitions.i_view_About_Us_section()
+  When I click on contact us button                  # stepDefinitions.HomepageStepDefinitions.i_click_on_contact_us_button()
+  Then I should be navigated to contact us page      # stepDefinitions.ContactUsStepDefinitions.i_should_be_navigated_to_contact_us_Page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//h1[text()=&apos;Contact Us&apos;]&quot;}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;CHAITRASRINIVAS&apos;, ip: &apos;192.168.1.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ef7da744dafaf96ece6b7f36681bee6, findElement {using=xpath, value=.//h1[text()=&apos;Contact Us&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\kulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64675/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ef7da744dafaf96ece6b7f36681bee6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
+	at stepDefinitions.ContactUsStepDefinitions.i_should_be_navigated_to_contact_us_Page(ContactUsStepDefinitions.java:28)
+	at âœ½.I should be navigated to contact us page(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/Homepage.feature:100)
+
+</system-out>
+    <system-err>Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 60708
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648159451.493][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 24, 2022 6:04:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 24, 2022 6:04:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
+Mar 24, 2022 6:04:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 97
+Mar 24, 2022 6:04:43 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</system-err>
+  </testcase>
+  <testcase classname="Homepage Feature file" name="To validate Our Partners Section" time="2.143"/>
+  <testcase classname="Homepage Feature file" name="To Validate Get Inspired Section" time="2.125"/>
+  <testcase classname="Homepage Feature file" name="To Validate Stay Connected Section" time="2.05"/>
+  <testcase classname="Homepage Feature file" name="To validate footer section" time="1.971"/>
+  <testcase classname="Upcoming Courses Feature file" name="To Validate Upcoming course page" time="27.563"/>
+  <testcase classname="Upcoming Courses Feature file" name="To validate course filter section" time="42.934"/>
+  <testcase classname="Upcoming Courses Feature file" name="To validate calendar section" time="32.632"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by Course type" time="32.594"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by Certifying body" time="32.41"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by Month" time="32.598"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by City" time="32.413"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by Country" time="32.731"/>
+  <testcase classname="Upcoming Courses Feature file" name="To filter by Date" time="32.382"/>
+  <testcase classname="Upcoming Courses Feature file" name="To validate clear filter button" time="42.69">
+    <failure message="Course Type filter is not reset expected:&lt;[Select Filter Option]&gt; but was:&lt;[Clear Filters]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: Course Type filter is not reset expected:&lt;[Select Filter Option]&gt; but was:&lt;[Clear Filters]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.UpcomingCoursesStepDefinitions.i_should_see_that_the_filter_selections_are_reset_to_Select_filter_option_and_all_courses_are_displayed(UpcomingCoursesStepDefinitions.java:211)
+	at ✽.I should see that all the filter selections are reset to Select filter option and all courses are displayed(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/UpcomingCourses.feature:65)
+</failure>
+    <system-out>
+@Automation @UpcomingCourses
+Scenario: To validate clear filter button                                                                          # src/test/resources/features/UpcomingCourses.feature:62
+  Given I am on Upcoming Courses page                                                                              # stepDefinitions.UpcomingCoursesStepDefinitions.i_am_on_Upcoming_Courses_page()
+  When I apply any filter and click on clear filter button                                                         # stepDefinitions.UpcomingCoursesStepDefinitions.i_apply_any_filter_and_click_on_clear_filter_button()
+  Then I should see that all the filter selections are reset to Select filter option and all courses are displayed # stepDefinitions.UpcomingCoursesStepDefinitions.i_should_see_that_the_filter_selections_are_reset_to_Select_filter_option_and_all_courses_are_displayed()
+      org.junit.ComparisonFailure: Course Type filter is not reset expected:&lt;[Select Filter Option]&gt; but was:&lt;[Clear Filters]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.UpcomingCoursesStepDefinitions.i_should_see_that_the_filter_selections_are_reset_to_Select_filter_option_and_all_courses_are_displayed(UpcomingCoursesStepDefinitions.java:211)
+	at âœ½.I should see that all the filter selections are reset to Select filter option and all courses are displayed(file:///D:/Chaitra/Workspace/CucumberFramework/automation/src/test/resources/features/UpcomingCourses.feature:65)
+
+</system-out>
+    <system-err>Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 54563
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648159790.726][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 24, 2022 6:09:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 24, 2022 6:09:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
+Mar 24, 2022 6:09:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 97
+Mar 24, 2022 6:10:32 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</system-err>
+  </testcase>
+</testsuite>

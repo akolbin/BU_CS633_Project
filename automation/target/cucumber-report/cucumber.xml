@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="132.526">
+    <testcase classname="Hotel Management System feature file" name="To check navigation from Homepage to About Us page" time="23.415">
+        <system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on About us link...............................................passed
+Then I should be navigated to About us Page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Management System feature file" name="To check navigation from Homepage to Rooms Page" time="22.207">
+        <system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on Rooms link..................................................passed
+Then I should be navigated to Rooms Page....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Management System feature file" name="To check navigation from Homepage to Activities Page" time="26.123">
+        <system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on Activities link.............................................passed
+Then I should be navigated to Activities Page...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Management System feature file" name="To check navigation from Homepage to Contact Page" time="38.443">
+        <system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on Contact link................................................passed
+Then I should be navigated to Contact Page..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Management System feature file" name="To check navigation from Book Now button to Rooms Page" time="22.096">
+        <system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on Book Now Button.............................................passed
+Then I should be navigated to Rooms Page....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
